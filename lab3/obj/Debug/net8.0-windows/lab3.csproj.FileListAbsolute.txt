@@ -1,0 +1,17 @@
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\bin\Debug\net8.0-windows\lab3.exe
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\bin\Debug\net8.0-windows\lab3.deps.json
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\bin\Debug\net8.0-windows\lab3.runtimeconfig.json
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\bin\Debug\net8.0-windows\lab3.dll
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\bin\Debug\net8.0-windows\lab3.pdb
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.Form1.resources
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.Properties.Resources.resources
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.csproj.GenerateResource.cache
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.AssemblyInfoInputs.cache
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.AssemblyInfo.cs
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.csproj.CoreCompileInputs.cache
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.dll
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\refint\lab3.dll
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.pdb
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\lab3.genruntimeconfig.cache
+D:\УЧЕБА\6 семестр\ТП\лабы\лаб 3\lab3\obj\Debug\net8.0-windows\ref\lab3.dll
