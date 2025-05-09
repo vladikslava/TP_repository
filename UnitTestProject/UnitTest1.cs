@@ -154,7 +154,7 @@ namespace UnitTestProject
             string name = "Product";
             string producer = "Producer";
             string description = "description of product description of product description of product description of product description of product description of product description of product";
-            string year = "202@";
+            string year = "2024";
             string price = "19Ë9.29";
 
             string expectedReturnValue = ExceptionStrings.NotPrice;
@@ -175,7 +175,7 @@ namespace UnitTestProject
             string producer = "Producer";
             string description = "description of product description of product description of product description of product description of product description of product description of product";
             string year = "2056";
-            string price = "19Ë9.29";
+            string price = "1999.29";
 
             string expectedReturnValue = ExceptionStrings.WrongYear;
 
@@ -199,7 +199,7 @@ namespace UnitTestProject
                 "description of product description of product description of product description of product " +
                 "description of product description of product description of product";
             string year = "2056";
-            string price = "19Ë9.29";
+            string price = "1999.29";
 
             string expectedReturnValue = ExceptionStrings.FullDescription;
 
