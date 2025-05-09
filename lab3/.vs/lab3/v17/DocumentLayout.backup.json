@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0423\u0427\u0415\u0411\u0410\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0422\u041F\\\u043B\u0430\u0431\u044B\\\u043B\u0430\u0431 3\\lab3\\",
+  "WorkspaceRootPath": "D:\\gitrepo\\TP_repository\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0442\u043F\\\u043B\u0430\u0431\u044B\\\u043B\u0430\u0431 3\\lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,11 +31,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0423\u0427\u0415\u0411\u0410\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0422\u041F\\\u043B\u0430\u0431\u044B\\\u043B\u0430\u0431 3\\lab3\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\\u0423\u0427\u0415\u0411\u0410\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0422\u041F\\\u043B\u0430\u0431\u044B\\\u043B\u0430\u0431 3\\lab3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "EditForm.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
+              "RelativeDocumentMoniker": "EditForm.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
+              "RelativeToolTip": "EditForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:18:25.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:10:04.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditForm.Designer.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.Designer.cs",
+              "RelativeDocumentMoniker": "EditForm.Designer.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.Designer.cs",
+              "RelativeToolTip": "EditForm.Designer.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAwwKEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:03:43.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
+              "RelativeDocumentMoniker": "EditForm.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T01:53:06.144Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
