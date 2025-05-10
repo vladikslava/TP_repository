@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace lab3
 {
-    internal interface IDataBaseController
+    public interface IDataBaseController
     {
+        public bool tryConnectDB();
+        public bool checkProductID();
+        public IDocumentToPrint fillDoc(int idNumber);
+        public bool checkFillDock();
     }
 }

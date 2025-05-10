@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab3
 {
-    //класс двойник сущности "Продукт", хранящий информацию о нем
+
     internal class Product
     {
         string name = "prod";

@@ -9,17 +9,52 @@ namespace lab3
     {
 
         Product product;
+        public IDataBaseController controller = null;
+        public int id = 2012;
+
         public EditForm()
         {
             InitializeComponent();
         }
 
-        private void SaveButton_Click(object sender, EventArgs e)
+        public IDocumentToPrint OnMakeDockClick(string name, string producer, string description, string year, string price)
         {
-            SaveInformationProduct(textBoxName.Text, textBoxProducer.Text, textBoxDescription.Text, TextBoxYear.Text, TextBoxPrice.Text);
+            if (CheckSaveInformationProduct(name, producer, description, year, price))
+            {
+                if (controller.tryConnectDB())
+                {
+                    if (controller.checkProductID())
+                    {
+                        IDocumentToPrint documentToPrint = controller.fillDoc(id);
+                        if (controller.checkFillDock())
+                        {
+                            return documentToPrint;
+                        }
+                        else
+                        {
+                            throw new Exception(ExceptionStrings.NoSaveProduct);
+                        }
+                    }
+                    else
+                    {
+                        throw new Exception(ExceptionStrings.NoIDProduct);
+                    }
+                }
+                else
+                {
+                    throw new Exception(ExceptionStrings.NoConnectionDB);
+                }
+            }
+
+            return null;
         }
 
-        public static bool SaveInformationProduct(string name, string producer, string description, string year, string price)
+        private void SaveButton_Click(object sender, EventArgs e)
+        {
+            CheckSaveInformationProduct(textBoxName.Text, textBoxProducer.Text, textBoxDescription.Text, TextBoxYear.Text, TextBoxPrice.Text);
+        }
+
+        public static bool CheckSaveInformationProduct(string name, string producer, string description, string year, string price)
         {
             year = year.Replace(" г.", "").Trim();
             price = price.Replace(" ₽", "").Trim();
@@ -67,7 +102,6 @@ namespace lab3
                 throw new Exception(ExceptionStrings.WrongYear);
             }
             
-            var product = new Product(name, producer, description, newYear, newPrice);
             MessageBox.Show("Сохранение прошло успешно!");
             return true;
         }

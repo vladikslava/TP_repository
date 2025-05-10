@@ -3,12 +3,47 @@
   "WorkspaceRootPath": "D:\\gitrepo\\TP_repository\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E9045DB-88F9-451F-9CF1-91C5BA9D5DE3}|..\\UnitTestProject\\UnitTestProject.csproj|d:\\gitrepo\\tp_repository\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\dummydbcontroller_basicflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:dummydbcontroller_basicflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\dummyproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:dummyproductentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\dummydbcontroller_noconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:dummydbcontroller_noconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\dummydbcontroller_noproductid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:dummydbcontroller_noproductid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\dummydbcontroller_nosaveproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:dummydbcontroller_nosaveproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\idocumenttoprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:idocumenttoprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\idatabasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:idatabasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|D:\\gitrepo\\TP_repository\\lab3\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,13 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E9045DB-88F9-451F-9CF1-91C5BA9D5DE3}|..\\UnitTestProject\\UnitTestProject.csproj|d:\\gitrepo\\tp_repository\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,75 +61,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionStrings.cs",
-              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs",
-              "RelativeDocumentMoniker": "ExceptionStrings.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs*",
-              "RelativeToolTip": "ExceptionStrings.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:01:39.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
-              "RelativeDocumentMoniker": "Product.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
-              "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T03:10:04.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditForm.cs",
-              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
-              "RelativeDocumentMoniker": "EditForm.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs*",
-              "RelativeToolTip": "EditForm.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "DummyDBController_BasicFlow.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_BasicFlow.cs",
+              "RelativeDocumentMoniker": "DummyDBController_BasicFlow.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_BasicFlow.cs",
+              "RelativeToolTip": "DummyDBController_BasicFlow.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T03:18:25.599Z",
+              "WhenOpened": "2025-05-10T07:30:41.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\UnitTestProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\UnitTestProject\\UnitTest1.cs",
               "ToolTip": "D:\\gitrepo\\TP_repository\\UnitTestProject\\UnitTest1.cs",
               "RelativeToolTip": "..\\UnitTestProject\\UnitTest1.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAApwMkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAkwB8BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T11:27:07.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DummyDBController_NoProductID.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoProductID.cs",
+              "RelativeDocumentMoniker": "DummyDBController_NoProductID.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoProductID.cs",
+              "RelativeToolTip": "DummyDBController_NoProductID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:25:08.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DummyDBController_NoConnection.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoConnection.cs",
+              "RelativeDocumentMoniker": "DummyDBController_NoConnection.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoConnection.cs",
+              "RelativeToolTip": "DummyDBController_NoConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:22:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DummyProductEntry.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\DummyProductEntry.cs",
+              "RelativeDocumentMoniker": "DummyProductEntry.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\DummyProductEntry.cs",
+              "RelativeToolTip": "DummyProductEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:17:47.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditForm.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
+              "RelativeDocumentMoniker": "EditForm.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
+              "RelativeToolTip": "EditForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwFAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:18:25.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DummyDBController_NoSaveProduct.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoSaveProduct.cs",
+              "RelativeDocumentMoniker": "DummyDBController_NoSaveProduct.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\DummyDBController_NoSaveProduct.cs",
+              "RelativeToolTip": "DummyDBController_NoSaveProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:26:47.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDocumentToPrint.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\IDocumentToPrint.cs",
+              "RelativeDocumentMoniker": "IDocumentToPrint.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\IDocumentToPrint.cs",
+              "RelativeToolTip": "IDocumentToPrint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:04:09.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExceptionStrings.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs",
+              "RelativeDocumentMoniker": "ExceptionStrings.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs",
+              "RelativeToolTip": "ExceptionStrings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:01:39.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDataBaseController.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\IDataBaseController.cs",
+              "RelativeDocumentMoniker": "IDataBaseController.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\IDataBaseController.cs",
+              "RelativeToolTip": "IDataBaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:05:28.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T03:10:04.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
               "RelativeDocumentMoniker": "EditForm.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T01:53:06.144Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "EditForm.Designer.cs",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.Designer.cs",
               "RelativeDocumentMoniker": "EditForm.Designer.cs",

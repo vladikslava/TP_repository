@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace lab3
 {
-    internal interface Interface1
+    public interface IDocumentToPrint
     {
+        public string name { get; set; }
+        public string producer { get; set; }
+        public string description { get; set; }
+        public int year { get; set; }
+        public double price { get; set; }
+        
     }
 }

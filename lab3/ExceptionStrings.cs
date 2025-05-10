@@ -17,5 +17,9 @@ namespace lab3
         public const string NotPrice = "Поле цены содержит недопустимые символы";
         public const string WrongYear = "Поле года некорректно";
         public const string FullDescription = "Описание больше 250 символов";
+
+        public const string NoConnectionDB = "Нет подключения к базе данных";
+        public const string NoIDProduct = "Нет товара в базе данных";
+        public const string NoSaveProduct = "Невозможно сохранить информацию о товаре";
     }
 }

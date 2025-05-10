@@ -26,7 +26,7 @@ namespace UnitTestProject
 
             Assert.DoesNotThrow(() =>
             {
-                actualReturnValue = EditForm.SaveInformationProduct(name, producer, description, year, price);
+                actualReturnValue = EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.AreEqual(expectedReturnValue, actualReturnValue);
         }
@@ -44,7 +44,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
@@ -64,7 +64,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
@@ -83,7 +83,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
@@ -102,7 +102,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
@@ -121,7 +121,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
@@ -141,7 +141,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
 
             Assert.IsNotNull(exception);
@@ -161,7 +161,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
 
             Assert.IsNotNull(exception);
@@ -181,7 +181,7 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
 
             Assert.IsNotNull(exception);
@@ -205,11 +205,107 @@ namespace UnitTestProject
 
             Exception? exception = Assert.Throws<Exception>(() =>
             {
-                EditForm.SaveInformationProduct(name, producer, description, year, price);
+                EditForm.CheckSaveInformationProduct(name, producer, description, year, price);
             });
 
             Assert.IsNotNull(exception);
             Assert.AreEqual(expectedReturnValue, exception.Message);
+        }
+
+        [Test]
+        public void TEST_011_OnMakeDockClick_BasicFlow()
+        {
+            string name = "Product";
+            string producer = "Producer";
+            string description = "description of product description of product description of product description of product description of product description of product description of product";
+            string year = "2024";
+            string price = "1999.29";
+
+            EditForm editForm = new EditForm();
+            editForm.controller = new DummyDBController_BasicFlow();
+            IDocumentToPrint documentToPrint = null;
+
+            Assert.DoesNotThrow(() =>
+            {
+                documentToPrint = editForm.OnMakeDockClick(name, producer, description, year, price);
+            });
+            Assert.IsNotNull (documentToPrint);
+            Assert.AreEqual(documentToPrint.name, name);
+            Assert.AreEqual (documentToPrint.description, description);
+            Assert.AreEqual (documentToPrint.producer, producer);
+
+        }
+
+        [Test]
+        public void TEST_012_OnMakeDockClick_NoConnectionDB()
+        {
+            string name = "Product";
+            string producer = "Producer";
+            string description = "description of product description of product description of product description of product description of product description of product description of product";
+            string year = "2024";
+            string price = "1999.29";
+
+            string expectedExceptionMessage = ExceptionStrings.NoConnectionDB;
+
+            EditForm editForm = new EditForm();
+            editForm.controller = new DummyDBController_NoConnection();
+            
+
+            Exception?exception = Assert.Throws<Exception>(() =>
+            {
+                editForm.OnMakeDockClick(name,producer, description, year, price);
+            });
+            Assert.IsNotNull(exception);
+            Assert.AreEqual(expectedExceptionMessage, exception.Message);
+
+        }
+
+        [Test]
+        public void TEST_013_OnMakeDockClick_NoIDProduct()
+        {
+            string name = "Product";
+            string producer = "Producer";
+            string description = "description of product description of product description of product description of product description of product description of product description of product";
+            string year = "2024";
+            string price = "1999.29";
+
+            string expectedExceptionMessage = ExceptionStrings.NoIDProduct;
+
+            EditForm editForm = new EditForm();
+            editForm.controller = new DummyDBController_NoProductID();
+
+
+            Exception? exception = Assert.Throws<Exception>(() =>
+            {
+                editForm.OnMakeDockClick(name, producer, description, year, price);
+            });
+            Assert.IsNotNull(exception);
+            Assert.AreEqual(expectedExceptionMessage, exception.Message);
+
+        }
+
+        [Test]
+        public void TEST_014_OnMakeDockClick_NoSaveProduct()
+        {
+            string name = "Product";
+            string producer = "Producer";
+            string description = "description of product description of product description of product description of product description of product description of product description of product";
+            string year = "2024";
+            string price = "1999.29";
+
+            string expectedExceptionMessage = ExceptionStrings.NoSaveProduct;
+
+            EditForm editForm = new EditForm();
+            editForm.controller = new DummyDBController_NoSaveProduct();
+
+
+            Exception? exception = Assert.Throws<Exception>(() =>
+            {
+                editForm.OnMakeDockClick(name, producer, description, year, price);
+            });
+            Assert.IsNotNull(exception);
+            Assert.AreEqual(expectedExceptionMessage, exception.Message);
+
         }
 
     }
