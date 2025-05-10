@@ -3,7 +3,8 @@
   "WorkspaceRootPath": "D:\\gitrepo\\TP_repository\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E9045DB-88F9-451F-9CF1-91C5BA9D5DE3}|..\\UnitTestProject\\UnitTestProject.csproj|d:\\gitrepo\\tp_repository\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:exceptionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,6 +19,9 @@
       "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:editform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5E9045DB-88F9-451F-9CF1-91C5BA9D5DE3}|..\\UnitTestProject\\UnitTestProject.csproj|d:\\gitrepo\\tp_repository\\unittestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|d:\\gitrepo\\tp_repository\\lab3\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93AE15EB-3255-45EC-9C74-A4D506249AD6}|lab3.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -29,11 +33,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ExceptionStrings.cs",
+              "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs",
+              "RelativeDocumentMoniker": "ExceptionStrings.cs",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\ExceptionStrings.cs*",
+              "RelativeToolTip": "ExceptionStrings.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:01:39.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\Product.cs",
               "RelativeDocumentMoniker": "Product.cs",
@@ -50,22 +67,22 @@
               "Title": "EditForm.cs",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
               "RelativeDocumentMoniker": "EditForm.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
-              "RelativeToolTip": "EditForm.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs*",
+              "RelativeToolTip": "EditForm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T03:18:25.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\UnitTestProject\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\UnitTestProject\\UnitTest1.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\UnitTestProject\\UnitTest1.cs*",
-              "RelativeToolTip": "..\\UnitTestProject\\UnitTest1.cs*",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAMwMkAAAAfAAAAAAAAAA==",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\UnitTestProject\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTestProject\\UnitTest1.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAApwMkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T11:27:07.084Z",
               "EditorCaption": ""
@@ -76,8 +93,8 @@
               "Title": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs",
               "RelativeDocumentMoniker": "EditForm.cs",
-              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\gitrepo\\TP_repository\\lab3\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T01:53:06.144Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"

@@ -32,4 +32,4 @@ D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\refint\lab3.dll
 D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\lab3.pdb
 D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\lab3.genruntimeconfig.cache
 D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\ref\lab3.dll
-D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\lab3.ExceptionStrings.resources
+D:\gitrepo\TP_repository\lab3\obj\Debug\net8.0-windows\lab3.EditForm.resources
